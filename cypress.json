@@ -1,0 +1,20 @@
+{
+  "chromeWebSecurity": false,
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "env": {
+    "cypress-plugin-snapshots": {
+           "imageConfig": {
+            "threshold": 0.001,
+          "screenshotConfig": {
+            "capture": "viewport",
+            "scale": false
+          }
+        }
+      }
+    },
+  "ignoreTestFiles": [
+    "**/__snapshots__/*",
+    "**/__image_snapshots__/*"
+    ]
+}
